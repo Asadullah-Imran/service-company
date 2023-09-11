@@ -5,7 +5,6 @@ import "./Hero.scss";
 function Hero() {
   return (
     <div className="hero">
-      <img src="../../../public/asset/img/home.png" alt="hero pic" />
       <div className="container">
         <div className="left">
           <div className="logo">Red Shark</div>
@@ -16,7 +15,7 @@ function Hero() {
           <button>Learn More</button>
         </div>
         <div className="right">
-          <div className="pic">some picture</div>
+          <img src="../../../public/asset/img/heroPic2.png" alt="heroPic" />
         </div>
       </div>
     </div>

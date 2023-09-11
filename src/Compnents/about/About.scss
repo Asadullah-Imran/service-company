@@ -1,0 +1,32 @@
+.about {
+  .container {
+    display: flex;
+    justify-content: center;
+    @media screen and (max-width: 839px) {
+      flex-direction: column;
+      align-items: center;
+    }
+    .title {
+      font-size: 2.5rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin: 0 10px 0 10px;
+      @media screen and (max-width: 839px) {
+        margin: 5rem 1rem 4rem 1rem;
+        font-size: 1.9rem;
+      }
+    }
+    .image {
+      img {
+        margin: 10px 10px 0 0;
+        width: 450px;
+        @media screen and (max-width: 500px) {
+          /* Apply width of 300px when screen size is 500px or less */
+          width: 350px;
+        }
+      }
+    }
+  }
+}
