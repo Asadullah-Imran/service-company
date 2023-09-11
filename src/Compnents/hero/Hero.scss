@@ -1,0 +1,19 @@
+.hero {
+  img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    object-position: right;
+    height: minmax(350px, 400px);
+  }
+  .container {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    .left {
+      color: white;
+    }
+  }
+}
