@@ -1,0 +1,13 @@
+.footer {
+  background-color: black;
+  .container {
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0 4px 0;
+    color: white;
+    a {
+      color: #fafafa;
+    }
+  }
+}
