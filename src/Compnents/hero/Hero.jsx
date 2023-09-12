@@ -15,7 +15,7 @@ function Hero() {
           <button>Learn More</button>
         </div>
         <div className="right">
-          <img src="../../../public/asset/img/heroPic.png" alt="heroPic" />
+          <img src="./asset/img/heroPic.png" alt="heroPic" />
         </div>
       </div>
     </div>

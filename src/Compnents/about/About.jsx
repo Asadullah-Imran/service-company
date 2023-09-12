@@ -10,7 +10,7 @@ function About() {
           philosophy, vision, or mantra here.
         </div>
         <div className="image">
-          <img src="../../../public/asset/img/about.jpg" alt="aboutpic" />
+          <img src="./asset/img/about.jpg" alt="aboutpic" />
         </div>
       </div>
     </div>
