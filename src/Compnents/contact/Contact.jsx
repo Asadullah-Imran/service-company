@@ -8,7 +8,7 @@ function Contact() {
       <div className="container">
         <div className="content">
           <div className="left">
-            <img src="../../../public/asset/img/contactleft.png" alt="" />
+            <img src="./asset/img/contactleft.png" alt="left pic" />
           </div>
           <div className="info">
             <h1>Contact Us</h1>
@@ -27,7 +27,7 @@ function Contact() {
           </div>
 
           <div className="right">
-            <img src="../../../public/asset/img/contactRight.png" alt="" />
+            <img src="./asset/img/contactRight.png" alt="right pic" />
           </div>
         </div>
       </div>

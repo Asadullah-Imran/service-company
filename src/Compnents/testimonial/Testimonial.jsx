@@ -14,7 +14,7 @@ function Testimonial() {
         </div>
         <div className="box">
           <div className="card">
-            <img src="../../../public/asset/img/tstm1.jpg" alt="" />
+            <img src="./asset/img/tstm1.jpg" alt="" />
             <span>
               Boost your product and service&apos;s credibility by adding
               testimonials from your clients. People love recommendations so
@@ -23,7 +23,7 @@ function Testimonial() {
             <span className="name">James Bond, CEO 007</span>
           </div>
           <div className="card">
-            <img src="../../../public/asset/img/tstm2.JPG" alt="" />
+            <img src="./asset/img/tstm2.JPG" alt="" />
             <span>
               Boost your product and service&apos;s credibility by adding
               testimonials from your clients. People love recommendations so
@@ -32,7 +32,7 @@ function Testimonial() {
             <span className="name">John Cena, Kargil.</span>
           </div>
           <div className="card">
-            <img src="../../../public/asset/img/tstm3.jpg" alt="" />
+            <img src="./asset/img/tstm3.jpg" alt="" />
             <span>
               Boost your product and service&apos;s credibility by adding
               testimonials from your clients. People love recommendations so
