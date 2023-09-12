@@ -1,0 +1,41 @@
+.contact {
+  width: 100%;
+  background-image: url(../../../public/asset/img/contactBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    padding: 1rem 20px 1rem 20px;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        padding-left: 20px;
+      }
+      .right {
+      }
+      img {
+        height: 300px;
+      }
+      .inf0 {
+        display: flex;
+        flex-flow: column;
+        h1 {
+        }
+        .email {
+        }
+        .phone {
+        }
+      }
+    }
+  }
+}

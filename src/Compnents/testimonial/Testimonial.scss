@@ -1,0 +1,44 @@
+.testimonial {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    display: flex;
+    flex-flow: column;
+    max-width: 1200px;
+    margin: 0 2rem 0 2rem;
+    padding: 1rem 0 1rem 0;
+    .title {
+      h1 {
+      }
+      p {
+      }
+    }
+    .box {
+      display: flex;
+      gap: 1.5rem;
+      .card {
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        flex-flow: column;
+        border-radius: 1rem;
+        border: 1px solid transparent;
+        background: #f4f4f4;
+        padding: 0.5rem;
+        img {
+          padding: 5px 0 5px 0;
+          display: flex;
+          align-self: center;
+          width: 80px;
+          border-radius: 50%;
+        }
+        span {
+        }
+        .name {
+        }
+      }
+    }
+  }
+}
