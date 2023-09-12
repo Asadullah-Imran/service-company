@@ -6,11 +6,13 @@
   .container {
     display: flex;
     flex-flow: column;
+    gap: 1.8rem;
     max-width: 1200px;
     margin: 0 2rem 0 2rem;
-    padding: 1rem 0 1rem 0;
+    padding: 2.5rem 0 2.5rem 0;
     .title {
       h1 {
+        padding-bottom: 1rem;
       }
       p {
       }
@@ -18,9 +20,14 @@
     .box {
       display: flex;
       gap: 1.5rem;
+      @media screen and (max-width: 640px) {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
       .card {
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
         display: flex;
         flex-flow: column;
         border-radius: 1rem;

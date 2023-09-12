@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 100%;
+  max-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,24 +17,55 @@
 
     .content {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
+      .info {
+        display: flex;
+        flex-flow: column;
+
+        .phone {
+          display: flex;
+          a {
+            color: black;
+          }
+        }
+        .email {
+          display: flex;
+          a {
+            color: black;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .phone {
+            font-size: 12px;
+          }
+          .email {
+            font-size: 12px;
+          }
+        }
+      }
       .left {
         padding-left: 20px;
       }
-      .right {
+      @media screen and (max-width: 745px) {
+        justify-content: center;
+        .right {
+          display: none;
+        }
+        .left {
+          padding-left: 10px;
+        }
       }
+
       img {
         height: 300px;
       }
-      .inf0 {
-        display: flex;
-        flex-flow: column;
-        h1 {
+      @media screen and (max-width: 450px) {
+        img {
+          height: 160px;
         }
-        .email {
-        }
-        .phone {
+        .left {
+          padding-left: 8px;
         }
       }
     }

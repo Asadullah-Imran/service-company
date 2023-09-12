@@ -13,16 +13,18 @@ function Contact() {
           <div className="info">
             <h1>Contact Us</h1>
             <div className="email">
-              <p>Email</p>
-
-              <a href=" mailto:asadullahimran19@gmail.com">
-                asadullahimran19@gmail.com
-              </a>
+              <p>Email:&nbsp; </p>
+              <div className="link">
+                <a href=" mailto:asadullahimran19@gmail.com">
+                  asadullahimran19@gmail.com
+                </a>
+              </div>
             </div>
             <div className="phone">
-              <p>Phone</p>
-
-              <a href="tel:+8801633356249">+880-16333-56249</a>
+              <p>Phone:&nbsp; </p>
+              <div className="link">
+                <a href="tel:+8801633356249">+880-16333-56249</a>
+              </div>
             </div>
           </div>
 

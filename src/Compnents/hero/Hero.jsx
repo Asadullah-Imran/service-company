@@ -7,7 +7,7 @@ function Hero() {
     <div className="hero">
       <div className="container">
         <div className="left">
-          <div className="logo">Red Shark</div>
+          <div className="logo">OptimumX</div>
           <div className="title">
             <h1>Experience excellence with us.</h1>
             <span>Your partner in business</span>

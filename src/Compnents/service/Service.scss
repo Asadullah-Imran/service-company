@@ -11,7 +11,7 @@
     flex-flow: column;
     max-width: 1200px;
     margin: 0 2rem 0 2rem;
-    padding: 1rem 0 1rem 0;
+    padding: 2.5rem 0 2.5rem 0;
     gap: 1rem;
     .row1 {
       max-width: 500px;
@@ -29,10 +29,14 @@
       align-items: stretch; /* Stretch boxes to match height */
       gap: 1.5rem;
       //background-color: green;
-
+      @media screen and (max-width: 640px) {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
       .box {
         width: 100%;
-        max-width: 350px;
+        max-width: 300px;
         display: flex;
         flex-flow: column;
         border-radius: 1rem;
@@ -48,6 +52,7 @@
         border-right-color: rgba(255, 255, 255, 0.1);
         color: white;
         padding: 0.5rem;
+
         img {
           margin: 5px 0 10px 10px;
           width: 60px;
